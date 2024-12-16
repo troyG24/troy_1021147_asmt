@@ -1,0 +1,4 @@
+1. Run the todo_app.py
+
+2. To run test cases 
+    run the test_app.py using pytest command: pytest test_app.py
