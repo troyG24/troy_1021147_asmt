@@ -13,7 +13,7 @@ except ModuleNotFoundError:
 
 app = Flask(__name__)
 CORS(app)
-CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5000"}})
+CORS(app, resources={r"/*": {"origins": "https://troy-1021147-asmt-2.onrender.com/"}})
 app.config['MONGO_URI'] = 'mongodb+srv://troygons246:thisismynewpassword#2024@cluster0.oxyqd.mongodb.net/todo_db?retryWrites=true&w=majority&appName=Cluster0'
 mongo = PyMongo(app)
 
